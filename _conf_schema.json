@@ -1,0 +1,14 @@
+{
+  "banned_users": {
+    "description": "静态封禁名单（用户 ID 列表）。此名单通过 WebUI 管理，与指令动态封禁的名单互不影响。",
+    "type": "list",
+    "default": [],
+    "hint": "填写平台用户 ID，例如 QQ 号。被封禁用户的所有消息都会被机器人完全忽略。"
+  },
+  "banned_groups": {
+    "description": "静态封禁群聊名单（群号列表）。此名单通过 WebUI 管理，与指令动态封禁的名单互不影响。",
+    "type": "list",
+    "default": [],
+    "hint": "填写群号。被封禁群内机器人将完全不响应任何消息。"
+  }
+}
